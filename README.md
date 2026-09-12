@@ -1,3 +1,3 @@
 # TRS2MIDI USB Expression Pedal
 
-![TRS2MIDI Expression Pedal](images/wiring.jpeg)
+![TRS2MIDI Expression Pedal](images/wiring.jpg)
