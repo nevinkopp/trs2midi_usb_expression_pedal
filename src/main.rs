@@ -68,9 +68,9 @@ async fn main(spawner: Spawner) {
     );
 
     // Build the USB device and create midi 
-    let usb = builder.build();
     let midi = MidiClass::new(&mut builder, 1, 1, 64);
-
+    let usb = builder.build();
+    
 
     // unwrap fails if no usb host is found
     unwrap!(spawner.spawn(usb_task(usb)));
